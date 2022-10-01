@@ -139,12 +139,12 @@ h5 {
 /* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 600px) {
   .calculator__content {
-    width: 95%;
+    width: 85%;
   }
 
   .calculator__content-input {
     width: 28px;
-    margin-left: 200px;
+    margin-left: 180px;
   }
 
   input {
@@ -167,5 +167,9 @@ h5 {
   .calculator__content h2 {
     font-size: 22px;
     line-height: 20px;
+  }
+
+  form .btn {
+    width: 85%;
   }
 }
