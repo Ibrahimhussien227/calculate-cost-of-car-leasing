@@ -114,12 +114,12 @@ h5 {
   }
 
   .calculator__content {
-    width: 98%;
+    width: 105%;
   }
 
   .calculator__content-input {
     width: 35px;
-    margin-left: 600px;
+    margin-left: 720px;
   }
 
   form .btn {
@@ -128,7 +128,7 @@ h5 {
   }
 
   .slider {
-    width: 85%;
+    width: 90%;
   }
 
   h2 {
@@ -141,7 +141,7 @@ h5 {
 @media screen and (max-width: 768px) {
   .calculator__content-input {
     width: 35px;
-    margin-left: 380px;
+    margin-left: 480px;
   }
 
   .slider {
@@ -156,12 +156,12 @@ h5 {
 /* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 575px) {
   .calculator__content {
-    width: 85%;
+    width: 77%;
   }
 
   .calculator__content-input {
     width: 28px;
-    margin-left: 180px;
+    margin-left: 150px;
   }
 
   input {
@@ -169,7 +169,7 @@ h5 {
   }
 
   .slider {
-    width: 65%;
+    width: 56%;
   }
 
   h1 {
@@ -187,6 +187,6 @@ h5 {
   }
 
   form .btn {
-    width: 83%;
+    width: 76%;
   }
 }
