@@ -94,6 +94,7 @@ button:disabled {
 
 h2 {
   margin: auto;
+  align-items: center;
 }
 
 h1 {
@@ -107,27 +108,27 @@ h5 {
 }
 
 /* ================== MEDIA QUERIES (LARGE DEVICES) ================== */
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1027px) {
   form {
     grid-template-columns: 1fr;
   }
 
   .calculator__content {
-    width: 105%;
+    width: 98%;
   }
 
   .calculator__content-input {
     width: 35px;
-    margin-left: 725px;
+    margin-left: 600px;
   }
 
   form .btn {
     font-size: 22px;
-    width: 45%;
+    width: 40%;
   }
 
   .slider {
-    width: 92%;
+    width: 85%;
   }
 
   h2 {
@@ -140,11 +141,11 @@ h5 {
 @media screen and (max-width: 768px) {
   .calculator__content-input {
     width: 35px;
-    margin-left: 480px;
+    margin-left: 380px;
   }
 
   .slider {
-    width: 85%;
+    width: 80%;
   }
 
   form .btn {
@@ -155,12 +156,12 @@ h5 {
 /* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 575px) {
   .calculator__content {
-    width: 97%;
+    width: 85%;
   }
 
   .calculator__content-input {
     width: 28px;
-    margin-left: 250px;
+    margin-left: 180px;
   }
 
   input {
@@ -168,7 +169,7 @@ h5 {
   }
 
   .slider {
-    width: 75%;
+    width: 65%;
   }
 
   h1 {
@@ -186,6 +187,6 @@ h5 {
   }
 
   form .btn {
-    width: 97%;
+    width: 83%;
   }
 }
