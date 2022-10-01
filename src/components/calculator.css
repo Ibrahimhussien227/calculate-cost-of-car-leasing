@@ -118,7 +118,7 @@ h5 {
 
   .calculator__content-input {
     width: 35px;
-    margin-left: 700px;
+    margin-left: 725px;
   }
 
   form .btn {
@@ -137,10 +137,10 @@ h5 {
 }
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================== */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .calculator__content-input {
     width: 35px;
-    margin-left: 460px;
+    margin-left: 480px;
   }
 
   .slider {
@@ -155,7 +155,7 @@ h5 {
 /* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 575px) {
   .calculator__content {
-    width: 100%;
+    width: 97%;
   }
 
   .calculator__content-input {
@@ -168,7 +168,7 @@ h5 {
   }
 
   .slider {
-    width: 80%;
+    width: 75%;
   }
 
   h1 {
@@ -186,6 +186,6 @@ h5 {
   }
 
   form .btn {
-    width: 100%;
+    width: 97%;
   }
 }
